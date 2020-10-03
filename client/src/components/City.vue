@@ -1,12 +1,15 @@
 <template>
-    <div id="city">
-        <h3>Los Angeles</h3>
-    </div>
+    <h3 id="city">{{ content }}</h3>
 </template>
 
 <script>
 export default {
-    
+    data() {
+        return {
+            
+        }
+    },
+    props: ['content'],
 }
 </script>
 

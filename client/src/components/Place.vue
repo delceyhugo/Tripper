@@ -1,15 +1,21 @@
 <template>
-    <div id="place">
-        <h4>Redwood Forest</h4>
-    </div>
+    <h4 id="place">{{ content }}</h4>
 </template>
 
 <script>
 export default {
-    
+    data() {
+        return {
+            
+        }
+    },
+    props: ['content'],
 }
 </script>
 
 <style scoped>
-
+h4{
+    font-size: 60px;
+    font-style: italic; 
+}
 </style>

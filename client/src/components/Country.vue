@@ -1,17 +1,23 @@
 <template>
-    <div id="country">
-        <h1>USA</h1>
-    </div>
+    <h1 id="country">{{ content }}</h1>
 </template>
 
 <script>
 export default {
+    name: "Country",
+    data() {
+        return {
+            
+        }
+    },
+    props: ['content'],
     
 }
 </script>
 
 <style scoped>
-#contry{
-    border-top: 3px gray solid;
+h1{
+    font-size: 50px;
+    text-shadow: 3px 3px 5px black ;
 }
 </style>
