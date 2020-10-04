@@ -1,5 +1,9 @@
 <template>
-    <h4 id="place">{{ content }}</h4>
+    <li>
+        <div class="wrapper col-5">
+            <h4 id="place">{{ content }}</h4>
+        </div>
+    </li>
 </template>
 
 <script>

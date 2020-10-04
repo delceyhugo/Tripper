@@ -1,5 +1,9 @@
 <template>
-    <h2 id="state">{{ content }}</h2>
+    <li>
+        <div class="wrapper col-5">
+            <h2 id="state">{{ content }}</h2>
+        </div>
+    </li>    
 </template>
 
 <script>
