@@ -15,7 +15,7 @@ export default {
 
 <style scoped>
 h4{
-    font-size: 60px;
+    font-size: 20px;
     font-style: italic; 
 }
 </style>

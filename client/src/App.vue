@@ -30,7 +30,7 @@ export default {
   color: #2c3e50;
   height: 100vh;
   width: 100vw;
-  background-color: #202020f1;
+  background: linear-gradient(to right, #232526, #37383a);
   color: beige;
 }
 </style>
