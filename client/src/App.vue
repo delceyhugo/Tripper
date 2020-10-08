@@ -1,11 +1,10 @@
 <template>
   <div id="app">
-    <home></home>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Home from "./views/Home"
 
 export default {
   name: 'App',
@@ -14,9 +13,14 @@ export default {
       
     }
   },
-  components: {
-    'home' : Home,
-  },
+  watch: {
+    $route: {
+      immediate: true,
+      handler(to) {
+        document.title = to.meta.title || 'QuizTime';
+      }
+    }
+  }
 }
 
 </script>
